@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ToDo_List_TypeScript/static/css/main.2081b3cb.chunk.css",
+    "main.js": "/ToDo_List_TypeScript/static/js/main.7e066a86.chunk.js",
+    "main.js.map": "/ToDo_List_TypeScript/static/js/main.7e066a86.chunk.js.map",
+    "runtime-main.js": "/ToDo_List_TypeScript/static/js/runtime-main.29497a62.js",
+    "runtime-main.js.map": "/ToDo_List_TypeScript/static/js/runtime-main.29497a62.js.map",
+    "static/js/2.8c6b506d.chunk.js": "/ToDo_List_TypeScript/static/js/2.8c6b506d.chunk.js",
+    "static/js/2.8c6b506d.chunk.js.map": "/ToDo_List_TypeScript/static/js/2.8c6b506d.chunk.js.map",
+    "static/js/3.61feaf62.chunk.js": "/ToDo_List_TypeScript/static/js/3.61feaf62.chunk.js",
+    "static/js/3.61feaf62.chunk.js.map": "/ToDo_List_TypeScript/static/js/3.61feaf62.chunk.js.map",
+    "index.html": "/ToDo_List_TypeScript/index.html",
+    "static/css/main.2081b3cb.chunk.css.map": "/ToDo_List_TypeScript/static/css/main.2081b3cb.chunk.css.map",
+    "static/js/2.8c6b506d.chunk.js.LICENSE.txt": "/ToDo_List_TypeScript/static/js/2.8c6b506d.chunk.js.LICENSE.txt",
+    "static/media/TodoList.module.scss": "/ToDo_List_TypeScript/static/media/background-list.50d65f1d.png",
+    "static/media/App.module.scss": "/ToDo_List_TypeScript/static/media/background.ccbe3813.png",
+    "static/media/_fonts.scss": "/ToDo_List_TypeScript/static/media/list.e6bf3321.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.29497a62.js",
+    "static/js/2.8c6b506d.chunk.js",
+    "static/css/main.2081b3cb.chunk.css",
+    "static/js/main.7e066a86.chunk.js"
+  ]
+}
