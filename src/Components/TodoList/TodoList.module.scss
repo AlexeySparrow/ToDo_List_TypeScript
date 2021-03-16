@@ -1,0 +1,63 @@
+@import "./src/assets/scss/variables";
+
+.list {
+  position: relative;
+  @include size(85vh, auto);
+  @include flex(column, start, center);
+  min-height: 83vh;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 0 1rem 1rem 0;
+  box-shadow: 10px 10px 10px 2px rgba(34, 60, 80, 0.2),
+              25px 0 20px -7px rgba(34, 60, 80, 0.2) inset;
+  background: url('../../assets/img/background-list.png') repeat;
+  font-family: 'ListText', serif;
+  font-size: 1.5rem;
+  color: #27408b;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 4rem;
+    @include size(1px, 100%);
+    background: rgba(247, 72, 72, 0.7);;
+  }
+
+  p {
+    margin-top: 3rem;
+  }
+
+  div {
+    @include size(100%, auto);
+    @include flex(row, space-between, center);
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+
+    span {
+      width: 100%;
+      margin: 0 1rem;
+    }
+
+    &.completed span {
+      text-decoration: underline;
+      color: #2ea716;
+    }
+
+    input {
+      cursor: pointer;
+    }
+
+    i {
+      @include flex(row, center, center);
+      cursor: pointer;
+    }
+    
+    input {
+      @include size(0.9rem, 0.9rem);
+    }
+  }
+}

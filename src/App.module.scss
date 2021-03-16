@@ -1,0 +1,13 @@
+@import "assets/scss/variables";
+
+.wrapper {
+  @include size(100%, auto);
+  @include flex(row, center, flex-start);
+  min-height: 100vh;
+  background: url("assets/img/background.png") repeat;
+}
+
+.container {
+  @include size(1000px, auto);
+  @include flex(column, start, center);
+}
